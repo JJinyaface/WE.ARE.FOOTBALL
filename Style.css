@@ -1,0 +1,110 @@
+#homepagebanner {
+width: 100%
+}
+#logo {
+	width: 30%;
+}
+body {
+	font-family: 'Racing Sans One', cursive;
+	line-height: 1.6;
+	text-align: center;
+	background-color: #10FF0B;
+
+} 
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 60px;
+	opacity: 0.8;
+}
+
+h2 {
+    font-size: 200%;
+
+}
+
+p {
+	font-size: 150%;
+	color: black;
+}
+
+.cardimg {
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border-radius: 20px;
+	box-shadow: 5px 10px 10px #185a37;
+}
+
+li {
+	padding: 20px;
+}
+
+#button {
+	background-color: white;
+	border-radius: 69px;
+	border: 7px solid black;
+	padding: 5px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#bannerdiv {
+	display: flex;
+}
+
+#cardsdiv {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#list div {
+	display: inline-block;
+}
+
+#logo {
+	position: absolute;
+    top: 20px;
+    left:150px;
+    width: 25%;
+    length: 25%;
+}
+
+h1 {
+	position: absolute;
+	transform: translate(90%, 0%);
+	color: white;
+	font-size: 1100%;
+	line-height: 1.1;
+}
+
+#button {
+	position: absolute;
+	transform: translate(70%, 500%);
+	top: 20px;
+}
+
+li:hover {
+	color: green;
+}
+
+#cardsdiv {
+	padding: 50px;
+}
+
+.cardimg:hover {
+	opacity: 0.9;
+}
+ 
